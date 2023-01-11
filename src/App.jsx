@@ -1,11 +1,13 @@
-import './App.css'
-import Example from './components/Example.jsx'
+import AllTasks from "./components/AllTasks";
 
 const App = () => {
+
   return (
     <div>
-    <Example />
+    <h1>Lets goo</h1>
+     <AllTasks />
     </div>
   )
 }
-export default App
+
+export default App;
